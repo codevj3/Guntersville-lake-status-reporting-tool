@@ -1,0 +1,8 @@
+// describes a CORBA object whose response() return a string which is the answer of the command and the given direction. 
+module SensorApp
+{
+  interface Sensor
+  {
+    string response(in string command, in string direction);
+  };
+};
